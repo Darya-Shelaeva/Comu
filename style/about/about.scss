@@ -1,0 +1,33 @@
+@import '../../utils/variables';
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.img_about{
+    width: 50%;
+    height: auto;
+}
+.about_content{
+    width: 456px;
+}
+
+.about_title{
+    color: #455A64;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%; /* 52.92px */
+}
+.about_text{
+    color: #535359;
+font-family: Poppins;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 148.2%; /* 24.705px */
+letter-spacing: 0.5px;
+}
